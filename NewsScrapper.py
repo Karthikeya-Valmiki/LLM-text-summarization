@@ -1,10 +1,11 @@
+# %%
 #Importing essential libraries 
 from newsdataapi import NewsDataApiClient
 from langchain.agents import initialize_agent, Tool
 from langchain.agents import AgentType
 from langchain.chat_models import ChatOpenAI
-from langchain.experimental.plan_and_execute import PlanAndExecute, load_agent_executor, load_chat_planner
-import credentials
+from langchain_experimental.plan_and_execute import PlanAndExecute, load_agent_executor, load_chat_planner
+
 from time import sleep
 
 # %%
@@ -103,10 +104,10 @@ def news_summarizer(NEWSDATA_KEY:str, OPENAI_KEY:str, limit:str="175 characters"
 
 # %%
 # Getting a response, Inserting Query.
-response = news_summarizer(credentials.NEWSDATA_KEY, credentials.OPENAI_KEY, limit="175 characters", total_news = 1,sleep_seconds = 20,search_query = "ICC")
+response = news_summarizer(NEWSDATA_KEY = 'pub_3815512c4e6d027a90e388a0eeee9b30c2854',OPENAI_KEY = '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', limit="175 characters", total_news = 1,sleep_seconds = 20,search_query = "business")
 
 # %%
-response
+###response
 
 # %%
 
