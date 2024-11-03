@@ -38,7 +38,3 @@ To run the notebook, you need the following dependencies:
 ## Limitations
 
 Currently, the word restriction functionality does not work accuratley in terms of word limit. While the overall summarization process functions smoothly, the word limit for the generated summaries may not be accurately enforced.
-
-We encourage you to contribute to this project and help improve the word restriction functionality. By addressing this limitation, we can enhance the accuracy and usefulness of the generated summaries.
-
-Your contributions and insights are greatly appreciated as we work together to enhance the capabilities of news summarization using Large Language Models.
