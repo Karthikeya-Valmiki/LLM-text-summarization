@@ -1,6 +1,6 @@
 # News Summarization with Large Language Models
 
-This repository contains a Jupyter notebook that demonstrates how to fetch the latest news articles and summarize them using Large Language Models (LLM). By leveraging the power of LLM, you can quickly extract key information from news articles and generate concise summaries.
+This project contains a Jupyter notebook that demonstrates how to fetch the latest news articles and summarize them using Large Language Models (LLM). By leveraging the power of LLM, you can quickly extract key information from news articles and generate concise summaries.
 
 ## Overview
 
@@ -42,16 +42,3 @@ Currently, the word restriction functionality does not work accuratley in terms 
 We encourage you to contribute to this project and help improve the word restriction functionality. By addressing this limitation, we can enhance the accuracy and usefulness of the generated summaries.
 
 Your contributions and insights are greatly appreciated as we work together to enhance the capabilities of news summarization using Large Language Models.
-
-
-## Contributing
-
-Contributions to this repository are welcome! If you have any ideas, improvements, or bug fixes, feel free to submit a pull request. Please ensure that your contributions align with the project's coding style and guidelines.
-
-## License
-
-This repository is licensed under the [MIT License](LICENSE). Feel free to use the code and modify it according to your needs.
-
-## Acknowledgments
-
-We would like to thank the contributors and developers of the libraries and tools used in this project. Their valuable work makes projects like this possible.
